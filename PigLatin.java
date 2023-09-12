@@ -3,7 +3,9 @@ import java.util.Scanner;
 
 public class PigLatin 
 {
-    public static void (String[] args)
+
+    public static void main (String[] args)
+{
     
     //Declare string for userSentence and pigLatin
     String userSentence; 
@@ -39,4 +41,5 @@ public class PigLatin
                 System.out.println(temp + "\t" + temp + "ay");
             }
     }
+}
 }
